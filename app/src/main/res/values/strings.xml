@@ -1,0 +1,169 @@
+<resources>
+    <string name="app_name">SolcelleApp</string>
+    <string name="Station_name">Station name:</string>
+
+    // general
+    <string name="general_next">Neste</string>
+    <string name="general_loading">Laster...</string>
+    <string name="general_unit_celsius">°C</string>
+    <string name="general_unit_cm">cm</string>
+    <string name="general_unit_octas">octas</string>
+    <string name="general_error">Feil: %1$s </string>
+    <string name="forbruk">SolcelleApp</string>
+    <string name="navigate_back">Tilbake</string>
+    <string name="general_navigate">Naviger til %1$s</string>
+
+    // front screen
+    <string name="front_screen_adress_input">Søk på adresse</string>
+    <string name="front_screen_use_adress">Bruk denne adressen</string>
+    <string name="front_screen_search">Søk</string>
+    <string name="front_screen_clear">Tøm adressefelt</string>
+
+    // angle input screen
+    <string name="angle_input_screen_title">Angi mål for takflaten</string>
+    <string name="angle_input_screen_width_input">Bredden av taket (i meter)</string>
+    <string name="angle_input_screen_height_input">Høyden på takflaten (i meter)</string>
+    <string name="angle_input_screen_area_input">Arealet på solcellepanelet (i kvadratmeter)</string>
+    <string name="angle_input_screen_tips">*Tips: Sørvendt tak uten skygge gir best effekt – velg alternativet "Sør" ved flatt tak.</string>
+    <string name="angle_input_screen_wrong_width_error">Ugyldig bredde - må være et tall</string>
+    <string name="angle_input_screen_wrong_height_error">Ugyldig høyde - må være et tall</string>
+    <string name="angle_input_screen_wrong_area_error">Ugyldig areal - må være et tall</string>
+    <string name="angle_input_screen_calculate">Beregn produksjon</string>
+    <string name="angle_input_screen_content_description_expand">Velg himmelretning</string>
+    <string name="angle_input_screen_content_description_more_info">Mer informasjon</string>
+    <string name="angle_input_screen_content_description_house">Bilde av et hus med forklaring på mål for takflaten.</string>
+    <string name="angle_input_screen_content_description_direction">"Nedtrekksmeny for å velge hvilken retning taket på huset peker. "</string>
+
+
+    // favorite screen
+    <string name="favorite_screen_title">Favoritter</string>
+    <string name="favorite_screen_angle">Takvinkel: %1$d°</string>
+    <string name="favorite_screen_area">Areal: %1$d m²</string>
+    <string name="favorite_screen_show_details">Vis detaljer</string>
+    <string name="favorite_screen_delete">Slett</string>
+
+    // presentation screen
+    <string name="forventet_produksjon_og_besparelse">Forventet produksjon og besparelse</string>
+    <string name="presentation_screen_saved_favorite">Favoritt lagret!</string>
+    <string name="presentation_screen_view_monthly_production">Se din månedlige strømproduksjon</string>
+    <string name="presentation_screen_produce">Produserer</string>
+    <string name="presentation_screen_save">Sparer</string>
+    <string name="presentation_screen_choose_month">Velg måned</string>
+    <string name="presentation_screen_months">måneder</string>
+    <string name="presentation_screen_loading_animation">sunloading.json</string>
+
+    <string name="presentation_screen_solar_radiation_text">Basert på %1$.1f kWh/m² solinnstråling ☀</string>
+    <string name="presentation_screen_annual_production_text">%1$.1f kWh i året</string>
+    <string name="presentation_screen_annual_savings_text">%1$.2f kr i året</string>
+    <string name="presentation_screen_produced_energy_text">%1$.1f kWh i %2$s</string>
+    <string name="presentation_screen_monthly_savings_text">Du sparer %1$.2f kr i %2$s</string>
+    <string name="presentation_screen_annual_savings_info_text">Med en produksjon på %1$.1f kWh i %2$s og
+        en gjennomsnittlig strømpris på %3$.2f kr/kWh, sparer du ca. %4$.1f kr denne måneden.</string>
+    <string name="presentation_screen_repayment_period_info_text"> Med en gjennomsnittlig strømproduksjon på %1$.1f kWh,
+    og %2$.2f kr besparelse i året, så er tilbakebetalingstiden %3$.1f år.</string>
+    <string name="presentation_feilmelding">Noe gikk galt...</string>
+
+
+    <string name="presentation_screen_content_description_add_favorite">Legg til i favoritter</string>
+    <string name="presentation_screen_content_description_production">Produksjon</string>
+    <string name="presentation_screen_content_description_savings">Besparelse</string>
+    <string name="presentation_screen_content_description_month_drop_down">Nedtrekksmeny for å velge en måned (januar til desember)</string>
+
+    <string name="presentation_screen_example_tv">"Med din årlige produksjon kan du se på en 50\" LED-TV i %1$.0f timer."</string>
+    <string name="presentation_screen_example_cooking">"Med din årlige produksjon kan du bruke komfyren i %1$.0f timer.</string>
+    <string name="presentation_screen_example_ev">"Med din årlige produksjon kan du kjøre elbil på motorvei i %1$.0f kilometer.</string>
+    <string name="presentation_screen_example_cabin">  "Med din årlige produksjon kan du dekke strømmen til hytta i %1$.1f måneder.</string>
+
+
+    // presentation screen months
+    <string name="month_jan">Jan</string>
+    <string name="month_feb">Feb</string>
+    <string name="month_mar">Mars</string>
+    <string name="month_apr">April</string>
+    <string name="month_may">Mai</string>
+    <string name="month_jun">Juni</string>
+    <string name="month_jul">Juli</string>
+    <string name="month_aug">Aug</string>
+    <string name="month_sep">Sep</string>
+    <string name="month_oct">Okt</string>
+    <string name="month_nov">Nov</string>
+    <string name="month_dec">Des</string>
+
+    // presentation screen weather
+    <string name="presentation_screen_temp_title">Temp</string>
+    <string name="presentation_screen_snow_title">Snø</string>
+    <string name="presentation_screen_snow_light">Lite</string>
+    <string name="presentation_screen_snow_moderate">Moderat</string>
+    <string name="presentation_screen_snow_heavy">Mye</string>
+    <string name="presentation_screen_sky_clear">Klart</string>
+    <string name="presentation_screen_sky_partly_cloudy">Delvis skyet</string>
+    <string name="presentation_screen_sky_overcast">Overskyet</string>
+    <string name="presentation_screen_cloud_cover_title">Skydekke</string>
+
+
+    // info screen
+    <string name="info_screen_title">Generell info om solcellepaneler</string>
+
+    // info screen taxes
+    <string name="info_screen_tax_title">Solcellepaneler og skatt</string>
+    <string name="info_screen_tax_body">Som privatperson får du ikke momsfradrag på kjøp og installasjon av solcelleanlegg, men du slipper å betale moms når du bruker eller selger overskuddsstrømmen din.</string>
+    <string name="info_screen_tax_animation">skatt_og_solcelle2.json</string>
+    <string name="info_screen_tax_reference">Data hentet fra: Avgiftsmessig behandling av solcelleanlegg, u.å. </string>
+
+    // info screen profit
+    <string name="info_screen_profit_title">Lønnsomhet ved installasjon</string>
+    <string name="info_screen_profit_body">Lønnsomheten ved solcellepanel avhenger av faktorer som effektivitet, installert effekt, strømpriser og installasjonskostnader.
+    Et anlegg på 10 kWp kan årlig spare deg ca. 15 000 kroner ved en strømpris på 1,50 kr/kWh.
+    Med en investeringskostnad på 225 000–240 000 kroner etter Enova-støtte, er tilbakebetalingstiden rundt 15 år — men dette kan variere med strømprisen.</string>
+    <string name="info_screen_profit_animation">lonnsomhet.json</string>
+    <string name="info_screen_profit_reference">Data hentet fra: Avgiftsmessig behandling av solcelleanlegg, u.å. </string>
+
+    // info screen price
+    <string name="info_screen_price_title">Hvordan påvirker strømprisen meg?</string>
+    <string name="info_screen_price_body">Når strømprisen er høy, sparer du mer ved å bruke egen solenergi, og investeringen betales raskere ned.</string>
+    <string name="info_screen_price_animation">hvordan_paavirker_strom.json</string>
+    <string name="info_screen_price_reference">Data hentet fra: Solcelleanlegg | Energitiltak | Solenergi, u.å.</string>
+
+    // info screen general info
+    <string name="info_screen_general_title">Solcellepaneler på 1-2-3!</string>
+    <string name="info_screen_general_body">Solcellepaneler består av små celler som fanger sollys og lager strøm. De er laget av silisium, som frigjør elektroner når solen treffer.
+    Hvordan fungerer de?
+    Sollyset skaper likestrøm (DC), som inverteren gjør om til brukbar strøm (AC) i hjemmet.</string>
+    <string name="info_screen_general_animation">panel_info.json</string>
+    <string name="info_screen_general_reference">Data hentet fra: Robin24, 2023</string>
+
+    // info screen advantages
+    <string name="info_screen_advantages_title">Hvorfor velge solceller?</string>
+    <string name="info_screen_advantages_body">Med solcellepanel på taket kan du kutte strømregningen, tjene penger på å selge overskuddsstrøm, øke boligens verdi og samtidig få et nytt, moderne tak. Investeringen lønner seg over tid,
+    spesielt med stigende strømpriser, og bidrar til en grønnere fremtid. Velg en løsning som passer ditt mål – enten du vil spare penger, bli mest mulig selvforsynt med strøm, eller fornye taket på huset.</string>
+    <string name="info_screen_advantages_animation">hvorfor_velge_solceller.json</string>
+    <string name="info_screen_advantages_reference">Data hentet fra: Robin24, 2023</string>
+
+    // info screen types
+    <string name="info_screen_types_title">Ulike typer solcellepaneler</string>
+    <string name="info_screen_types_body">
+    Monokrystallinske paneler: mest effektive og tar minst plass, men koster mer.
+    Polykrystallinske paneler: rimeligere, men har noe lavere effektivitet.
+    Tynnfilmspaneler: fleksible og billige, men gir lavere energiproduksjon.
+    Bifaciale paneler: fanger sollys fra begge sider og gir høyere produksjon, men koster mer.
+    Konsentrerte PV-paneler (CPV): bruker linser for å fokusere sollys, men krever mye direkte sol.</string>
+    <string name="info_screen_types_animation">"hvilket_panel.json"</string>
+    <string name="info_screen_types_reference">Data hentet fra: Robin24, 2023</string>
+
+    // info screen conditions
+    <string name="info_screen_conditions_title">Hva bør du vurdere?</string>
+    <string name="info_screen_conditions_body">Se på energibehovet ditt, takets plassering og vinkel, samt budsjettet ditt.
+    Vurder også lokale solforhold og støtteordninger som kan gjøre investeringen mer lønnsom.</string>
+    <string name="info_screen_conditions_animation">"valg2.json"</string>
+    <string name="info_screen_conditions_reference">Data hentet fra: Robin24, 2023</string>
+
+    // info screen Enova
+    <string name="info_screen_enova_title">Enova-støtte</string>
+    <string name="info_screen_enova_body">Enova er en statlig støtteordning som hjelper deg å gjøre boligen din mer energieffektiv og klimavennlig.
+    Du kan få 7 500 kroner i grunnstøtte, pluss 1 250 kroner ekstra for hver kWp du installerer, opptil 20 kWp.
+    Totalt kan du få opptil 32 500 kroner i støtte for solcelleanlegg på boligen!</string>
+    <string name="info_screen_enova_animation">Scene-1-2.json</string>
+    <string name="info_screen_enova_reference">Data hentet fra: Solcelleanlegg | Energitiltak | Solenergi, u.å.</string>
+
+
+</resources>
